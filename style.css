@@ -1,0 +1,323 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.nav-item{
+    padding:10px;
+    font-size:1rem;
+    font-family: 'Poppins';    
+}
+ .navbar-light .navbar-nav .nav-item .nav-link:hover{
+    
+    
+    color: red;
+    
+  }
+.navbar-light .navbar-nav .nav-item .nav-link {
+
+    color: black;
+  
+  }
+ 
+  .homepage{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+.certifications
+{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.aboutus{
+  margin-top: 50px;
+  margin-left:100px;
+  margin-bottom: 100px;
+}
+.porfolio{
+  margin: -20px;
+  border-radius: 10px;
+
+}
+.li{
+  font-family: 'Roboto';
+}
+.wrapper {
+  width: auto;
+  height: auto;
+}
+.educationheader{
+  text-align: start;
+  margin-bottom:50px;
+  font-family: 'Poppins';
+}
+.Project{
+  margin-top: 20px;
+ margin-left: 10px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: #000000;
+  border-radius: 100px;
+  position: relative;
+  margin-left: 100px;
+}
+.education{
+  margin-left:100px;
+  margin-bottom: 100px;
+}
+h5 {
+  position: absolute;
+  font-family: 'Poppins';
+  font-size:xx-small;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: #fff;
+}
+
+.vertical-line {
+  width: 3px;
+  height: 70px;
+  background: #000000;
+  margin-left:150px;
+}
+#education{
+  margin-top:-10px;
+  margin-left:100px ;
+  padding: 10px;
+}
+.card{
+  border-radius: 10px;
+  background-color:rgb(255, 255, 255);
+}
+.card:hover{
+  box-shadow: 10px 10px orange;
+}
+.card-text{
+  font-family: 'Roboto';
+}
+.cer-image
+{
+  width:300px;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+/* hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background: linear-gradient(to right, #ccc, #333, #ccc);
+} */
+  .typewritter h1{
+    font-size: 50px;
+    font-family: 'Roboto';
+    overflow: hidden;
+    border-right:.15rem  solid orange ;
+    white-space: nowrap;
+    margin-left: 100px;
+    letter-spacing: .15rem;
+    animation: typing 3.5s steps(40,end) infinite,
+    blink-caret .75s step-end;
+  }
+ .title h3{
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left:100px;
+
+ }
+ .exampleFormControlTextarea1{
+  width:50%;
+ }
+ .icon-image:hover{
+  border-left: 2px solid orange;
+ }
+ .icon-image{
+  width:50px;
+  height: 50px;
+  margin-right:10px;
+ }
+
+ .Programming{
+  margin-left: 100px;
+ }
+ .button{
+  margin-top:20px;
+  margin-left: 100px;
+  border-radius:50%;
+ }
+ .aboutmeinfo{
+  padding-left:10px ;
+  font-family: 'Poppins';
+  align-items: center;
+  justify-content: start;  
+ }
+
+ .hire{
+  padding: 10px;
+ }
+ 
+ .hire:active{
+  padding:10px;
+  border-radius: 10px;
+  color: black;
+  background-color: orange;
+ }
+ .flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.titleme{
+  font-size: 30px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+.titleme2{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.items{
+  margin-right: 50px;
+}
+ @media only screen and (max-width: 800px) {
+  .icon-image:hover{
+    border-left: 2px solid orange;
+   }
+
+   .certifications
+   {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+   .icon-image{
+    width:30px;
+    height: 30px;
+    margin-right:10px;
+   }
+  .wrapper {
+    width: auto;
+    height: auto;
+  }
+  #cardt{
+    margin-left:10px;
+    width: 100%;
+  }
+  /* .flex-container {
+    flex-direction: column;
+  } */
+  .items{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  .circle {
+    width: 70px;
+    height: 70px;
+    background: #000000;
+    border-radius: 50px;
+    position: relative;
+    margin-left: 50px;
+  }
+  .education{
+    margin-left:50px;
+  }
+  h5 {
+    position: absolute;
+    font-family: 'Poppins';
+    font-size:xx-small;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #fff;
+  }
+  .Programming{
+    margin-left: 50px;
+  }
+
+  .vertical-line {
+    width: 3px;
+    height: 50px;
+    background: #000000;
+    margin-left:80px;
+  }
+  #education{
+    margin-left:50px ;
+  }
+  .card{
+    margin-left: -30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(255, 255, 255);
+  }
+  .card:hover{
+    box-shadow: 10px 10px;
+  }
+  .card-sm-6:hover{
+    box-shadow: 10px 10px;
+  }
+  
+  .homepage{
+    margin-top: 50px;
+  }
+  .aboutmeinfo{
+    margin-left:-20px;
+    font-size: 12px;
+  }
+.aboutus{
+  margin-top: 50px;
+  margin-left:50px;
+  margin-bottom: 20px;
+}
+.porfolio{
+  margin-left: -10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+
+}
+
+  .typewritter h1{
+    font-size: 30px;
+    font-family: 'Roboto';
+    overflow: hidden;
+    border-right:.10rem  solid orange ;
+    white-space: nowrap;
+    margin-left: 50px;
+    letter-spacing: .15rem;
+    animation: typing 2.5s steps(30,end) infinite,
+    blink-caret .75s step-end infinite;
+  }
+
+  .title h3{
+    margin-left: 50px;
+  }
+  .button{
+    margin-left: 50px;
+  }
+  @keyframes typing {
+    from{width: 0}
+    to{width: 50%;}
+    
+  }
+  @keyframes blink-caret {
+    100%{width: 50%;}
+  }
+ }
+ .title h3:hover{
+  color:rgb(255, 0, 0);
+ }
+  @keyframes typing {
+    from{width: 0}
+    to{width: 70%;}
+    
+  }
+  @keyframes blink-caret {
+    100%{width: 50%;}
+  }
+  
