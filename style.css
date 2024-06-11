@@ -1,55 +1,48 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-.nav-item{
-    padding:10px;
-    font-size:1rem;
-    font-family: 'Poppins';    
+.nav-item {
+  padding: 10px;
+  font-size: 1rem;
+  font-family: "Poppins";
 }
- .navbar-light .navbar-nav .nav-item .nav-link:hover{
-    
-    
-    color: red;
-    
-  }
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: red;
+}
 .navbar-light .navbar-nav .nav-item .nav-link {
+  color: black;
+}
 
-    color: black;
-  
-  }
- 
-  .homepage{
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-.certifications
-{
+.homepage {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.certifications {
   margin-top: 50px;
   margin-left: 100px;
 }
-.aboutus{
+.aboutus {
   margin-top: 50px;
-  margin-left:100px;
+  margin-left: 100px;
   margin-bottom: 100px;
 }
-.porfolio{
+.porfolio {
   margin: -20px;
   border-radius: 10px;
-
 }
-.li{
-  font-family: 'Roboto';
+.li {
+  font-family: "Roboto";
 }
 .wrapper {
   width: auto;
   height: auto;
 }
-.educationheader{
+.educationheader {
   text-align: start;
-  margin-bottom:50px;
-  font-family: 'Poppins';
+  margin-bottom: 50px;
+  font-family: "Poppins";
 }
-.Project{
+.Project {
   margin-top: 20px;
- margin-left: 10px;
+  margin-left: 10px;
 }
 
 .circle {
@@ -60,14 +53,14 @@
   position: relative;
   margin-left: 100px;
 }
-.education{
-  margin-left:100px;
+.education {
+  margin-left: 100px;
   margin-bottom: 100px;
 }
 h5 {
   position: absolute;
-  font-family: 'Poppins';
-  font-size:xx-small;
+  font-family: "Poppins";
+  font-size: xx-small;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -79,26 +72,34 @@ h5 {
   width: 3px;
   height: 70px;
   background: #000000;
-  margin-left:150px;
+  margin-left: 150px;
 }
-#education{
-  margin-top:-10px;
-  margin-left:100px ;
+#education {
+  margin-top: -10px;
+  margin-left: 100px;
   padding: 10px;
 }
-.card{
-  border-radius: 10px;
-  background-color:rgb(255, 255, 255);
+#logo{
+  display: flex;
+  align-items: flex-start;
+
 }
-.card:hover{
+#workexperience {
+  margin-top: -10px;
+  margin-left:100px;
+}
+.card {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.card:hover {
   box-shadow: 10px 10px orange;
 }
-.card-text{
-  font-family: 'Roboto';
+.card-text {
+  font-family: "Roboto";
 }
-.cer-image
-{
-  width:300px;
+.cer-image {
+  width: 300px;
   height: 200px;
   margin-right: 20px;
   margin-bottom: 10px;
@@ -109,113 +110,117 @@ h5 {
   background: #333;
   background: linear-gradient(to right, #ccc, #333, #ccc);
 } */
-  .typewritter h1{
-    font-size: 50px;
-    font-family: 'Roboto';
-    overflow: hidden;
-    border-right:.15rem  solid orange ;
-    white-space: nowrap;
-    margin-left: 100px;
-    letter-spacing: .15rem;
-    animation: typing 3.5s steps(40,end) infinite,
-    blink-caret .75s step-end;
-  }
- .title h3{
-  font-family: 'Roboto';
+.typewritter h1 {
+  font-size: 50px;
+  font-family: "Roboto";
+  overflow: hidden;
+  border-right: 0.15rem solid orange;
+  white-space: nowrap;
+  margin-left: 100px;
+  letter-spacing: 0.15rem;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end;
+}
+.title h3 {
+  font-family: "Roboto";
   font-size: 20px;
   margin-top: 20px;
-  margin-left:100px;
-
- }
- .exampleFormControlTextarea1{
-  width:50%;
- }
- .icon-image:hover{
+  margin-left: 100px;
+}
+.exampleFormControlTextarea1 {
+  width: 50%;
+}
+.icon-image:hover {
   border-left: 2px solid orange;
- }
- .icon-image{
-  width:50px;
+}
+.icon-image {
+  width: 50px;
   height: 50px;
-  margin-right:10px;
- }
+  margin-right: 10px;
+}
 
- .Programming{
+
+.Programming {
   margin-left: 100px;
- }
- .button{
-  margin-top:20px;
+}
+.button {
+  margin-top: 20px;
   margin-left: 100px;
-  border-radius:50%;
- }
- .aboutmeinfo{
-  padding-left:10px ;
-  font-family: 'Poppins';
+  border-radius: 50%;
+}
+.aboutmeinfo {
+  padding-left: 10px;
+  font-family: "Poppins";
   align-items: center;
-  justify-content: start;  
- }
+  justify-content: start;
+}
 
- .hire{
+.hire {
   padding: 10px;
- }
- 
- .hire:active{
-  padding:10px;
+}
+
+.hire:active {
+  padding: 10px;
   border-radius: 10px;
   color: black;
   background-color: orange;
- }
- .flex-container {
+}
+.flex-container {
   display: flex;
   flex-direction: row;
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
 }
-.titleme{
+.titleme {
   font-size: 30px;
   margin-top: -30px;
   margin-bottom: 30px;
 }
-.titleme2{
+.titleme2 {
   font-size: 30px;
   margin-bottom: 30px;
 }
-.items{
+.workc{
+  font-weight: lighter;
+}
+.h4,.h3,.h5{
+  font-family: 'Poppins';
+}
+.items {
   margin-right: 50px;
 }
- @media only screen and (max-width: 800px) {
-  .icon-image:hover{
+@media only screen and (max-width: 800px) {
+  .icon-image:hover {
     border-left: 2px solid orange;
-   }
+  }
 
-   .certifications
-   {
-  margin-top: 50px;
-  margin-left: 50px;
-}
+  .certifications {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
 
-   .icon-image{
-    width:30px;
+  .icon-image {
+    width: 30px;
     height: 30px;
-    margin-right:10px;
-   }
+    margin-right: 10px;
+  }
   .wrapper {
     width: auto;
     height: auto;
   }
-  #cardt{
-    margin-left:10px;
-    width: 100%;
+  #cardt {
+    margin-left: 10px;
+    width;
   }
   /* .flex-container {
     flex-direction: column;
   } */
-  .items{
+  .items {
     margin-right: 10px;
     margin-bottom: 10px;
     font-size: 15px;
   }
-  
+
   .circle {
     width: 70px;
     height: 70px;
@@ -224,20 +229,20 @@ h5 {
     position: relative;
     margin-left: 50px;
   }
-  .education{
-    margin-left:50px;
+  .education {
+    margin-left: 50px;
   }
   h5 {
     position: absolute;
-    font-family: 'Poppins';
-    font-size:xx-small;
+    font-family: "Poppins";
+    font-size: xx-small;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     color: #fff;
   }
-  .Programming{
+  .Programming {
     margin-left: 50px;
   }
 
@@ -245,79 +250,95 @@ h5 {
     width: 3px;
     height: 50px;
     background: #000000;
-    margin-left:80px;
+    margin-left: 80px;
   }
-  #education{
-    margin-left:50px ;
+  #education {
+    margin-left: 50px;
   }
-  .card{
+  .card {
     margin-left: -30px;
     border-radius: 10px;
     margin-bottom: 10px;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
   }
-  .card:hover{
+  .card:hover {
     box-shadow: 10px 10px;
   }
-  .card-sm-6:hover{
+  .card-sm-6:hover {
     box-shadow: 10px 10px;
   }
-  
-  .homepage{
+
+  .homepage {
     margin-top: 50px;
   }
-  .aboutmeinfo{
-    margin-left:-20px;
+  #logo{
+    display: flex;
+    align-items: flex-start;
+  
+  }
+  #workexperience {
+    margin-top: -10px;
+    margin-left:50px;
+  }
+  .aboutmeinfo {
+    margin-left: -20px;
     font-size: 12px;
   }
-.aboutus{
-  margin-top: 50px;
-  margin-left:50px;
-  margin-bottom: 20px;
-}
-.porfolio{
-  margin-left: -10px;
-  border-radius: 10px;
-  margin-bottom: 30px;
+  .aboutus {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  .porfolio {
+    margin-left: -10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
 
-}
-
-  .typewritter h1{
+  .typewritter h1 {
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: "Roboto";
     overflow: hidden;
-    border-right:.10rem  solid orange ;
+    border-right: 0.1rem solid orange;
     white-space: nowrap;
     margin-left: 50px;
-    letter-spacing: .15rem;
-    animation: typing 2.5s steps(30,end) infinite,
-    blink-caret .75s step-end infinite;
+    letter-spacing: 0.15rem;
+    animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end;
   }
 
-  .title h3{
+  .title h3 {
     margin-left: 50px;
   }
-  .button{
+  .button {
     margin-left: 50px;
   }
   @keyframes typing {
-    from{width: 0}
-    to{width: 50%;}
-    
+    from {
+      width: 0;
+    }
+    to {
+      width: 50%;
+    }
   }
   @keyframes blink-caret {
-    100%{width: 50%;}
+    100% {
+      width: 50%;
+    }
   }
- }
- .title h3:hover{
-  color:rgb(255, 0, 0);
- }
-  @keyframes typing {
-    from{width: 0}
-    to{width: 70%;}
-    
+}
+.title h3:hover {
+  color: rgb(255, 0, 0);
+}
+@keyframes typing {
+  from {
+    width: 0;
   }
-  @keyframes blink-caret {
-    100%{width: 50%;}
+  to {
+    width: 70%;
   }
-  
+}
+@keyframes blink-caret {
+  100% {
+    width: 50%;
+  }
+}
